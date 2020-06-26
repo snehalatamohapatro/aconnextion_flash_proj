@@ -1,0 +1,13 @@
+
+###install virtual environment
+pip install virtualenv
+virtualenv --version
+
+### create virtual env
+virtualenv flask_env
+
+### go to flask_env and activate
+cd .\flask_env\
+Set-ExecutionPolicy Unrestricted -Force(if error persist )
+.\Scripts\activate
+### install flask in your environment
